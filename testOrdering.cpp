@@ -53,7 +53,7 @@ UnitTest(testShiftEmpty) {
 }
 
 
-/**************   == Template tests ==
+
 
 
 UnitTest(testShiftMiddleD) {
@@ -89,9 +89,6 @@ UnitTest(testShiftEndS) {
     assertThat (arrayOfLength(input, 5), matches(arrayOfLength(expected, 5)));
 }
 
-*/
-
-/**************   == Iterator tests ==
 
 
 UnitTest(testShiftMiddleV) {
@@ -140,4 +137,3 @@ UnitTest(testShiftEmptyVL) {
     assertThat (contentsOf(input), matches(contentsOf(expected)));
 }
 
-*/
